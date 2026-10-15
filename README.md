@@ -1,4 +1,4 @@
-funcion 1 
+* función 1
 
 function squareSum(numbers){
   let sum = 0;
@@ -8,8 +8,7 @@ function squareSum(numbers){
   return sum;
 }
 
-
-funcion 2 
+* función 2 
 
 function greet() {
   const dictionary = new Proxy({}, {
@@ -18,3 +17,10 @@ function greet() {
 
   return `${dictionary.hello} ${dictionary.world}!`;
 } 
+
+* función 3 
+
+function doubleInteger(i) {
+  
+  return i+i;
+}
