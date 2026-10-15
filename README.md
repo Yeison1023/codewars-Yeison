@@ -7,3 +7,14 @@ function squareSum(numbers){
   }
   return sum;
 }
+
+
+funcion 2 
+
+function greet() {
+  const dictionary = new Proxy({}, {
+    get: (_, prop) => prop
+  });
+
+  return `${dictionary.hello} ${dictionary.world}!`;
+} 
